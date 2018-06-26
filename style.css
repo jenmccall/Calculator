@@ -1,0 +1,65 @@
+body {
+	background-color: #62C1B8;
+	font-family: sans-serif;
+	color: #0B2027;
+}
+
+.calc {
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.calc:active {
+	background-color: #62C1B8;
+}
+
+td:active .operate {
+	background-color: #62C1B8;
+}
+
+
+
+#base {
+	background-color: #1D658E;
+	height: 300px;
+	width: 250px;
+	max-width: 25%;
+	table-layout: fixed;
+}
+
+#result {
+	background-color: #FFECB5;
+	max-width: 100%;
+	height: 100%;
+	align-content: center;
+	padding-bottom: 15px;
+
+	text-align: right;
+	font-family: monospace;
+	font-size: 16pt;
+}
+
+#spacing {
+	height: 10px;
+}
+
+#functions {
+	background-color: #FFAD9B;
+	text-align: center;
+	height: 20%;
+	max-width: 25%;
+}
+
+.operate {
+	background-color: #FFECB5;
+	max-width: 25%;
+	text-align: center;
+}
+
+#numbers {
+	background-color: #FFCDA8;
+	height: 20%;
+	max-width: 25%;
+	text-align: center;
+}
+
