@@ -1,5 +1,3 @@
-//var seven = document.getElementById("seven");
-//var eight = document.getElementById("eight");
 var result = document.getElementById("result");
 var clear = document.getElementById("clearButton");
 

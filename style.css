@@ -25,6 +25,8 @@ td:active .operate {
 	width: 250px;
 	max-width: 25%;
 	table-layout: fixed;
+
+	overflow: hidden;
 }
 
 #result {
@@ -33,6 +35,10 @@ td:active .operate {
 	height: 100%;
 	align-content: center;
 	padding-bottom: 15px;
+
+	letter-spacing: 0;
+	white-space: nowrap;
+	overflow: hidden;
 
 	text-align: right;
 	font-family: monospace;
@@ -56,7 +62,7 @@ td:active .operate {
 	text-align: center;
 }
 
-#numbers {
+.numbers {
 	background-color: #FFCDA8;
 	height: 20%;
 	max-width: 25%;
