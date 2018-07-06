@@ -26,10 +26,10 @@ function addToValue(element, value){
 }
 
 function decimalClick(event) {
-	if (!readValue(result).includes('.')) 
-		addToValue(result, '.');
-	else if (!append) 
+	if (!append) 
 		setValue(result, '0.');
+	else if (!readValue(result).includes('.')) 
+		addToValue(result, '.');
 
 	append = true;
 	operatorCheck = false;
